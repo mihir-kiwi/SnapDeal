@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="10" name="Failed suite [Google Login page]">
+  <parameter name="selenium.url" value="http://www.snapdeal.com/"/>
+  <parameter name="selenium.browser" value="firefox"/>
+  <parameter name="selenium.port" value="4444"/>
+  <parameter name="selenium.host" value="localhost"/>
+  <test name="Snapdeal login(failed)">
+    <classes>
+      <class name="com.automation.Verifications.VerifySnapDealIndex">
+        <methods>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="verifySnapDealLogin"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.automation.Verifications.VerifySnapDealIndex -->
+    </classes>
+  </test> <!-- Snapdeal login(failed) -->
+</suite> <!-- Failed suite [Google Login page] -->

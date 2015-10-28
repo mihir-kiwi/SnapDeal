@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" total="1" passed="0">
+  <reporter-output>
+    <line>
+      <![CDATA[<br> <b>Please look to the screenshot - </b>]]>
+    </line>
+  </reporter-output>
+  <suite name="Google Login page" duration-ms="13665" started-at="2015-03-03T05:58:32Z" finished-at="2015-03-03T05:58:45Z">
+    <groups>
+    </groups>
+    <test name="Snapdeal login" duration-ms="13665" started-at="2015-03-03T05:58:32Z" finished-at="2015-03-03T05:58:45Z">
+      <class name="com.automation.Verifications.VerifySnapDealIndex">
+        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.automation.Verifications.VerifySnapDealIndex@26c7da]" name="fetchSuiteConfiguration" is-config="true" duration-ms="16" started-at="2015-03-03T11:28:32Z" finished-at="2015-03-03T11:28:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1045ffc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchSuiteConfiguration -->
+        <test-method status="FAIL" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.automation.Verifications.VerifySnapDealIndex@26c7da]" name="setUp" is-config="true" duration-ms="0" started-at="2015-03-03T11:28:32Z" finished-at="2015-03-03T11:28:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.automation.Verifications.VerifySnapDealIndex.verifySnapDealLogin()]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Error communicating with the remote browser. It may have died.
+Build info: version: '2.44.0', revision: '76d78cf', time: '2014-10-23 20:02:37'
+System info: host: 'abc', ip: '192.168.100.124', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.7.0_71'
+Driver info: driver.version: EventFiringWebDriver
+Command duration or timeout: 5.32 seconds
+Build info: version: '2.44.0', revision: '76d78cf', time: '2014-10-23 20:02:37'
+System info: host: 'abc', ip: '192.168.100.124', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.7.0_71'
+Session ID: 84804bd8-2b4e-45ec-be57-62222aa7c67a
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, acceptSslCerts=true, browserName=firefox, rotatable=false, locationContextEnabled=true, webdriver.remote.sessionid=84804bd8-2b4e-45ec-be57-62222aa7c67a, version=35.0.1, databaseEnabled=true, cssSelectorsEnabled=true, handlesAlerts=true, webStorageEnabled=true, nativeEvents=false, applicationCacheEnabled=true, takesScreenshot=true}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.44.0', revision: '76d78cf', time: '2014-10-23 20:02:37'
+System info: host: 'abc', ip: '192.168.100.124', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.7.0_71'
+Driver info: driver.version: EventFiringWebDriver
+Command duration or timeout: 5.32 seconds
+Build info: version: '2.44.0', revision: '76d78cf', time: '2014-10-23 20:02:37'
+System info: host: 'abc', ip: '192.168.100.124', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.7.0_71'
+Session ID: 84804bd8-2b4e-45ec-be57-62222aa7c67a
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, acceptSslCerts=true, browserName=firefox, rotatable=false, locationContextEnabled=true, webdriver.remote.sessionid=84804bd8-2b4e-45ec-be57-62222aa7c67a, version=35.0.1, databaseEnabled=true, cssSelectorsEnabled=true, handlesAlerts=true, webStorageEnabled=true, nativeEvents=false, applicationCacheEnabled=true, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:304)
+	at com.automation.Init.SeleniumInit.setUp(SeleniumInit.java:172)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:653)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Caused by: org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.44.0', revision: '76d78cf', time: '2014-10-23 20:02:37'
+System info: host: 'abc', ip: '192.168.100.124', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.7.0_71'
+Driver info: driver.version: EventFiringWebDriver
+Build info: version: '2.44.0', revision: '76d78cf', time: '2014-10-23 20:02:37'
+System info: host: 'abc', ip: '192.168.100.124', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.7.0_71'
+Driver info: driver.version: unknown
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="verifySnapDealLogin()[pri:0, instance:com.automation.Verifications.VerifySnapDealIndex@26c7da]" name="verifySnapDealLogin" duration-ms="0" started-at="2015-03-03T11:28:44Z" finished-at="2015-03-03T11:28:44Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<br> <b>Please look to the screenshot - </b>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifySnapDealLogin -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.automation.Verifications.VerifySnapDealIndex@26c7da]" name="tearDown" is-config="true" duration-ms="1234" started-at="2015-03-03T11:28:44Z" finished-at="2015-03-03T11:28:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySnapDealLogin status=SKIP method=VerifySnapDealIndex.verifySnapDealLogin()[pri:0, instance:com.automation.Verifications.VerifySnapDealIndex@26c7da] output=<br> <b>Please look to the screenshot - </b>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.automation.Verifications.VerifySnapDealIndex -->
+    </test> <!-- Snapdeal login -->
+  </suite> <!-- Google Login page -->
+</testng-results>

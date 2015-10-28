@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name='Google Login page' verbose='10' parallel='false' thread-count='1'>
+    
+	<!-- Put IP of localhost/Grid Hub machine -->
+	 <parameter name='selenium.host' value='localhost' /> 
+
+	<!-- Put Port of localhost RC/Grid Hub machine -->
+	 <parameter name='selenium.port' value='4444' /> 
+
+	<!-- Put target browser name as below: -->
+	
+	<!--  For Chrome Browser -->
+	 <!-- <parameter name="sebrowser" value="chrome" />  -->
+	
+	<!-- For firefox Browser -->
+	 <parameter name='selenium.browser' value="firefox" />  
+	
+	<!--  For safari Browser -->
+    <!-- <parameter name="selenium.browser" value="safari" />  -->
+
+	<!-- @NOTE: 1) Un-comment <test> tag to run respective test. 2) Comment 
+		<test> tag to unrun 
+ test. -->
+
+	 <parameter name='selenium.url' value='http://www.snapdeal.com/'/>
+	
+	
+	<test name="Snapdeal login">
+		<classes>
+			<class name="com.automation.Verifications.VerifySnapDealIndex">
+				<methods>
+					<include name="verifySnapDealLogin" />
+				</methods>
+			</class>
+		</classes>
+	</test>  
+	
+</suite>
